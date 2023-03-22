@@ -1,9 +1,9 @@
 const MyPage = () => {
-    return(
-        <>
-            <h1>Hello New Page</h1>
-        </>
-    )
+  return (
+    <>
+      <h1>Hello New Page</h1>
+    </>
+  )
 }
 
-export default MyPage;
+export default MyPage
