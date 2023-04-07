@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <>
-      <h1 className="text-2xl font-bold">Netflix clone</h1>
+      <h1 className="text-2xl font-bold text-white">Netflix clone</h1>
     </>
   )
 }
