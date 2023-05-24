@@ -26,9 +26,12 @@ export default function Home() {
   return (
     <>
       <Navbar/>
-      <h1 className="text-2xl font-bold text-white">Netflix clone</h1>
+
+
+
+      {/* <h1 className="text-2xl font-bold text-white">Netflix clone</h1>
       <p className="text-white">Logged in as {user?.email}</p>
-      <button className="h-10 w-full bg-white" onClick={()=>signOut()}>Logout</button>
+      <button className="h-10 w-full bg-white" onClick={()=>signOut()}>Logout</button> */}
     </>
   )
 }
