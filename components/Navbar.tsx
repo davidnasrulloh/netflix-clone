@@ -4,10 +4,13 @@ import MobileMenu from "./MobileMenu";
 import NavbarItem from "./NavbarItem";
 import { useCallback, useEffect, useState } from "react";
 import AccountMenu from "./AccountMenu";
+import { useRouter } from "next/router";
 
 const TOP_OFFSET = 66;
 
 const Navbar = () => {
+
+    const router = useRouter();
 
     const [showMobileMenu, setShowMobileMenu] = useState(false)
     const [showAccountMenu, setAccountMenu] = useState(false)
@@ -49,7 +52,7 @@ const Navbar = () => {
                     items-center
                     transition
                     duration-500
-                    ${showBackground ? 'bg-zinc-900' : 'bg-opacity-90'}
+                    ${showBackground ? 'bg-zinc-900 bg-opacity-90' : ''}
                 `}>
                 <img className="h-4 lg:h-7" src="/images/logo.png" alt="" />
                 <div className="
@@ -79,11 +82,11 @@ const Navbar = () => {
                         <BsBell/>
                     </div>
 
-                    <div onClick={toggleAccountMenu} className="flex flex-row items-center gap-2 cursor-pointer relative">
-                        <div className="w-6 h-6 lg:w-10 lg:h-10 rounded-md overflow-hidden">
+                    <div className="flex flex-row items-center gap-2 cursor-pointer relative">
+                        <div onClick={()=>router.push('/profiles')} className="w-6 h-6 lg:w-10 lg:h-10 rounded-md overflow-hidden">
                             <img src="/images/default-blue.png" alt="" />
                         </div>
-                        <BsChevronDown className={`text-white transition ${showAccountMenu ? 'rotate-180' : 'rotate-0'} `}/>
+                        <BsChevronDown onClick={toggleAccountMenu} className={`text-white transition ${showAccountMenu ? 'rotate-180' : 'rotate-0'} `}/>
                         <AccountMenu visible={showAccountMenu}/>
                     </div>
                 </div>
