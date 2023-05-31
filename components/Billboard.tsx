@@ -8,11 +8,12 @@ const Billboard = () => {
     const { data } = useBillboard();
 
     return(
-        <div className='relative h-[56.25vw] w-full'>
+        <div className='relative h-[42.25vw] w-full'>
             <video 
                 className='
                     w-full
                     h-[56.25vw]
+                    lg:h-[100%]
                     object-cover
                     brightness-[60%]'
                 autoPlay
