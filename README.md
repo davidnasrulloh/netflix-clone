@@ -15,10 +15,11 @@ Latihan pada tutorial : https://www.youtube.com/watch?v=mqUN4N2q4qY&ab_channel=C
 #### Link deploy : https://netflix-clone-david.vercel.app/
 
 ### Setting .end
-DATABASE_URL=""
-NEXTAUTH_JWT_SECRET=""
-NEXTAUTH_SECRET=""
-GITHUB_ID=
-GITHUB_SECRET=
-GOOGLE_CLIENT_ID=
-GOOGLE_CLIENT_SECRET=
+Create this variable
+1. DATABASE_URL=""
+2. NEXTAUTH_JWT_SECRET=""
+3. NEXTAUTH_SECRET=""
+4. GITHUB_ID=
+5. GITHUB_SECRET=
+6. GOOGLE_CLIENT_ID=
+7. GOOGLE_CLIENT_SECRET=
