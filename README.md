@@ -1,6 +1,7 @@
 # Learn Next Netflix Clone in React, Tailwind CSS, Next.JS, Prisma, MongoDB, NextAuth & Vercel
 
 Latihan pada tutorial : https://www.youtube.com/watch?v=mqUN4N2q4qY&ab_channel=CodeWithAntonio
+Detail project process you can see at insight -> Network, I try this exercise when spare time only
 
 ### How to Run?
 
