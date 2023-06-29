@@ -15,7 +15,7 @@ Detail project process you can see at insight -> Network, I try this exercise wh
 
 #### Link deploy : https://netflix-clone-david.vercel.app/
 
-### Setting .end
+### Setting .env
 Create this variable
 1. DATABASE_URL=""
 2. NEXTAUTH_JWT_SECRET=""
